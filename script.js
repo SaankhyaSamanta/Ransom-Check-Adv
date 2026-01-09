@@ -217,7 +217,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     // Define API URL constant (currently empty for testing)
-const API_URL = 'http://127.0.0.1:5000/predict';
+const API_URL = 'https://ransom-check-adv.onrender.com//predict';
 
 async function handleSubmit() {
     // Show loading state
@@ -498,4 +498,5 @@ function showServerError(message) {
         });
     });
 });
+
 
