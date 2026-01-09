@@ -19,3 +19,4 @@ beautifulsoup4==0.0.2
 requests==2.31.0
 
 python-tlsh==4.7.2
+gunicorn
